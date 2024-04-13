@@ -1,0 +1,40 @@
+.step-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #339E8A;
+  width: 225px;
+  height: 72px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-box {
+  margin-top:40px;
+  color: #339E8A;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.text-box {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  color: #339E8A;
+}
+
+.box-date {
+  margin-top: 3px;
+}
+
+@media screen and (max-width: 670px) {
+  .registration-box {
+  height: 100%;
+  }
+}

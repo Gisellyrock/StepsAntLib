@@ -1,0 +1,77 @@
+.container-registration {
+  padding: 20px;
+  min-height: 741px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+
+:where(.css-dev-only-do-not-override-ibzvf1).ant-steps.ant-steps-vertical >.ant-steps-item>.ant-steps-item-container>.ant-steps-item-tail::after {
+  margin-left: -15px;
+  margin-top: 10px;
+  height: 122%;
+}
+
+.registration-box{
+  position: relative;
+  border: 5px solid #C59D75;
+  max-width: 1338px;
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.each-part {
+  margin-right: 3px;
+}
+
+.registration-header {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 12px;
+  color: #908983;
+}
+
+.statesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.step-progress{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.registration-hr{
+  margin-bottom: 47px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh; 
+}
+
+.loading-spinner svg {
+  font-size: 3rem; 
+  color:#908983;
+}
+
+
+
+
+

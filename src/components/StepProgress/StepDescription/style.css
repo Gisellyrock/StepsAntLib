@@ -1,0 +1,8 @@
+@media screen and (max-width: 985px) {
+  .step-description {
+    position: absolute !important;
+    top: 31px !important;
+    left: 43% !important;
+    transform: translateX(-50%) !important;
+  }
+}

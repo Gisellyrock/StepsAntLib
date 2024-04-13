@@ -1,0 +1,14 @@
+.step-title {
+    position: absolute;
+    top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1;
+}
+
+@media screen and (max-width:985px) {
+    .step-title {
+        top: 5px !important;
+        line-height: 0.9 !important;
+    }
+}

@@ -1,0 +1,11 @@
+.title-step{
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 500;
+  color: #908983;
+}
+
+.ant-steps-icon {
+  display: none;
+}
