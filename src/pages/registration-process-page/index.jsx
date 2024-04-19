@@ -136,7 +136,7 @@ const RegistrationProcessPage = () => {
 
       try {
         const response = await fetch(
-          'https://app.viromatecnologia.com.br:3333/protocol',
+          'https://',
           {
             method: 'POST',
             headers: {
